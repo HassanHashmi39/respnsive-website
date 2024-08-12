@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    background-image: url(bg2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #f8f9fa;
+    height: 55vh;
+}
+
+.head .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    padding: 6px 0;
+    height: 50vh;
+}
+
+.contact .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about {
+    padding: 6px 0;
+    height: 50vh;
+}
+
+.about .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.services .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.achivement {
+    background-color: #21364d;
+    color: #fff;
+    height: auto;
+}
+
+.achivement .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.display-4 {
+    font-size: 1.2rem;
+}
+
+nav .logo {
+    font-size: 23px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(47, 157, 83);
+    font-size: 15px;
+    text-align: center;
+}
+
+.b {
+    background-color: #f8f9fa;
+    color: #173657;
+    cursor: pointer;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-right ul li {
+    display: inline;
+}
+
+@media (max-width: 992px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .nav-right ul li {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .head {
+        height: auto;
+    }
+
+    .contact, .about, .services, .achivement {
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+}
+#ali{
+    display: flex;
+    flex-wrap: wrap;
+}
